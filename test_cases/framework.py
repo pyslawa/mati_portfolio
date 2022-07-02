@@ -90,5 +90,7 @@ class TestMediumPage(unittest.TestCase):
         assert expected_text == element_text
 
 
+    print("dupa jasia")
+
 
 
