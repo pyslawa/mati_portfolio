@@ -48,9 +48,9 @@ class BasePage():
         time.sleep(3)
 
 
-    # def read_page_url(self):
-    #     return self.driver.current_url
-    #
+    def read_page_url(self):
+        return self.driver.current_url
+
     # def parse_current_url(self):
     #     url = self.read_page_url()
     #     return urlparse(url)
